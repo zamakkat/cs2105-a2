@@ -26,7 +26,8 @@ class FileReceiver {
 		} 
 		int port = Integer.parseInt(args[0]);
 		String filename = args[1];
-        
+		System.out.println("Listening on port " + port + ". Saving file to " + filename);
+		
 		try 
 		{
 			// Create new reliable transport object and file output stream.

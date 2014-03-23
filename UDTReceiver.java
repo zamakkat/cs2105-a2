@@ -17,7 +17,7 @@ import java.net.*;
  * This implementation ensures that data, if delivered, are in order.
  * Packets, however, can be lost with a certain probability
  * given determined by the member P_DROP, and can be corrupted with
- * a certain probability determiend by the member P_CORRUPT.
+ * a certain probability determined by the member P_CORRUPT.
  *
  * UDTReceiver is SIMULATED over a TCP connection (to ensure in order delivery)
  * with a manual, random, packet drop/corruption.

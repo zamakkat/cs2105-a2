@@ -26,7 +26,8 @@ class FileSender {
 		String filename = args[0];
 		String hostname = args[1];
 		int port = Integer.parseInt(args[2]);
-		
+		System.out.println("Sending " + filename + " to " + hostname + ":" + port);
+
 		try 
 		{
 			// Create new reliable transport object and file input stream.
